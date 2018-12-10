@@ -1,6 +1,11 @@
 .container {
   max-width: 980px;
   width: 100%;
+  min-height: 60vh;
   padding: 15px;
   margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #454545;
 }

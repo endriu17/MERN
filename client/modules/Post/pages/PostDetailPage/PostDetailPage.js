@@ -70,7 +70,7 @@ export class PostDetailPage extends Component {
     return (
       <div>
         <Helmet title={this.props.post.title} />
-        <a className={styles['edit-post-button']} href="#" onClick={this.props.toggleEditPost}><FormattedMessage id="editPost" />Edit post</a>
+        <a className={styles['edit-post-button']} href="#" onClick={this.props.toggleEditPost}><FormattedMessage id="editPost" /></a>
         {
           this.props.showEditPost
             ? this.renderPostForm()

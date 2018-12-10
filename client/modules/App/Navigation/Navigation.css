@@ -1,0 +1,29 @@
+.navigation {
+    background: #0000001a;
+    margin: 0;
+    width: 50%;
+}
+.navigation-list {
+  list-style: none;
+  width: 980px;
+  margin: auto;
+  text-align: right;
+}
+.navigation-title {
+  display: inline-block;
+  cursor: pointer;
+  color: #fff;
+  margin: 15px 10px;
+}
+
+.navigation-link {
+  font-weight: 300;
+  font-size: 22px;
+  float: left;
+  text-decoration: none;
+  color: #FFF;
+}
+
+.navigation-link:hover {
+  text-decoration: underline;
+}

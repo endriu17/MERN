@@ -2,6 +2,8 @@
   background: #eee url('../../header-bk.png') center;
   background-size: cover;
   border-bottom: 1px solid #ccc;
+  width: 100%;
+
 }
 
 .content {
@@ -34,20 +36,21 @@
 }
 
 .language-switcher {
-  background: rgba(0, 0, 0, 0.1);
+  background: #0000001a;
+  margin: 0;
+  padding: 0;
+  width: 50%;
 }
 
 .language-switcher ul {
   list-style: none;
-  width: 980px;
-  margin: auto;
+  margin: 0;
   text-align: right;
 }
 
 .language-switcher li {
   display: inline-block;
-  margin: 10px;
-  padding: 5px;
+  margin: 17px 10px;
   cursor: pointer;
   color: #fff;
 }
@@ -65,4 +68,9 @@
     float: left;
     margin-top: 16px;
   }
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
 }
