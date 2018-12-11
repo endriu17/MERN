@@ -12,12 +12,12 @@ export const Navigation = (props, context) => {
   return <div className={styles['navigation']}>
         <ul className={styles['navigation-list']}>
             <li className={styles['navigation-title']}>
-                <Link className={styles['navigation-link']} to={"/home"}>
+                <Link className={styles['navigation-link']} to={"/"}>
                   Home
                 </Link>
             </li>
             <li className={styles['navigation-title']}>
-                <Link className={styles['navigation-link']} to={"/"}>
+                <Link className={styles['navigation-link']} to={"/posts"}>
                   Posts
                 </Link>
             </li>
